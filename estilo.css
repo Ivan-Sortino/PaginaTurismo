@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&family=Mukta:wght@200;300&family=Noto+Sans&family=Nunito+Sans:wght@300&family=Open+Sans&family=Poppins:wght@400;800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Martian+Mono:wght@100&family=Mukta:wght@200;300&family=Noto+Sans&family=Nunito+Sans:wght@300&family=Open+Sans&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+                                /* IMAGEN */
+.hero2{
+    background-image: url(./img/paisaje.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(99%);
+    position: absolute;
+    z-index: -1;
+}
+
+                                /* HEADER */
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+}
+nav a{
+    color: white;
+    padding-left: 20px;
+}
+nav a:hover{
+    transition: .5s;
+    color: #fed400;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+}
+.logo h2{
+    color: white;
+    margin-left: 1%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 17px;
+}
+
+
+                                /* HERO */  
+ .titulo{ /*TITULO */
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    margin-left: 10%;
+    line-height: 70px;
+}
+.titulo h3{
+    font-size: 25px;
+    color: white;
+}
+.titulo h1{
+    font-size: 120px;
+    color: #fed400;
+}
+.titulo b{
+    color: white;
+}
+.titulo p{
+    color: white;
+    line-height: normal;
+    margin-top: 2%;
+}
+
+
+.imagenes img{ /*IMAGENES DEL HERO*/
+    border-style: none;
+    border-radius: 15px;
+}
+.img2{
+    position: absolute;
+    left: 42%;
+    top: 16%;
+    width: 23%;  
+    z-index: -1;
+}
+.img1{
+    position: absolute;
+    left: 62%;
+    top: 27%;
+    width: 17%;
+    z-index: -1;
+}
+.img3{
+    position: absolute;
+    left: 46%;
+    top: 48%;
+    width: 17%;
+    
+} 
+
+
+.redes{ /* REDES SOCIALES DEL HERO */
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.redes a{
+    color: white;
+    padding-right: 1%;
+    font-size: 17px;
+}
+.redes i{
+    color: white;
+}
+.redes a:hover{
+    transition: .5s;
+    color: #fed400;
+}
+
+                                /* TOURS */
+
+.tours h2{ /* TITULO DE TOURS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 45px;
+} 
+
+.tarjetas{ /*TARJETA DE VIAJE */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    padding-bottom: 100px;
+    background-color: #312e2e;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    /* #162B4E */
+}
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 10px;
+   
+}
+.card h3 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.tarjetas i{
+    margin-top: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+p.dosp{
+    color: #fed400;
+}
+
+                                /* ABOUT US */
+
+.about h2{ /*TITULO */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 45px;
+}
+.juntos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.about img{ /*IMAGEN */
+    width: 350px;
+    margin-bottom: 5%;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.history p{
+    text-align: center;
+    margin-top: 3%;
+}
+ .history button{ /*BOTON */
+    padding: 15px 15px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 39%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #fed400;
+    box-shadow: 0 0 5px black;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.history button:hover{
+    transition: .5s;
+    background-color: white;
+    color: #fed400;
+}
+
+                                /* CONTACTO */
+.formulariomadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    padding-top: 3%;
+    font-size: 45px;
+    margin-bottom: 1%;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+
+}
+.primeralinea{
+    display: flex;
+}
+.name, .email{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+.formulariomadre input{
+    width: 17vw;
+    height: 5vh;
+    margin-bottom: 3%;
+    border-radius: 7px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-style: none;
+    box-shadow: 0px 0px 9px white, 0px 0px 5px #fed400;
+    outline: none;
+}
+.formulariomadre label{
+    margin-bottom: 5px;
+}
+.name{
+    padding-right: 40px;
+}
+
+.msj{
+    border-style: none;
+    border-radius: 7px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 5px;
+    box-shadow: 0px 0px 9px white, 0px 0px 5px #fed400;
+    outline: none;
+}
+.formulariomadre button{
+    padding: 15px 35px;
+    width: 35%;
+    margin: 10% 33%;
+    background-color: #fed400;
+    color: white;
+    font-weight: 800;
+    border-style: none;
+    border-radius: 7px;
+    box-shadow: 0 0 5px black;
+    cursor: pointer;
+}
+.formulariomadre button:hover{
+    transition: .5s;
+    background-color: white;
+    color: #fed400;
+}
+
+                                /* FOOTER */
+.footer{
+    background: rgb(254,212,0);
+    background: radial-gradient(circle, rgba(254,212,0,1) 45%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 20%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+.icons i{
+    margin-top: 3%;
+    margin-right: 45px;
+    cursor: pointer;
+    color: white;
+}
+.icons i:hover{
+    transition: .5s;
+    color: black;
+}
+
+.dos{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-size: 11px;
+}
