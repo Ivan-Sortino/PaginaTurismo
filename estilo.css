@@ -194,6 +194,9 @@ nav a:hover{
 p.dosp{
     color: #fed400;
 }
+.tarjetas button{
+    display: none;
+}
 
                                 /* ABOUT US */
 
@@ -345,4 +348,80 @@ p.dosp{
     color: white;
     background-color: black;
     font-size: 11px;
+}
+
+@media screen and (max-width:1410px){
+    .imagenes{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .titulo{
+        margin-left: 25%;
+    }
+    .redes{
+        margin-top: 20%;
+        margin-left: 35%;
+    }
+    .redes i{
+        display: none;
+    }
+    .tarjetas{
+        flex-direction: column;
+        margin-left: 36%;
+        margin-top: 5%;
+    }
+    .tarjetas i{
+        display: none;
+    }
+    .card{
+        margin-bottom: 6%;
+    }
+    .tarjetas button{
+        display: flex;
+        text-align: center;
+        padding: 15px 37px;
+        width: 22%;
+        margin-top: 5%;
+        margin-left: 12%;
+        border-style: none;
+        border-radius: 5px;
+        background-color: #fed400;
+        box-shadow: 0 0 5px black;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .juntos img{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    nav a{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .redes{
+        margin-top: 38%;
+    }
+    .tarjetas button{
+        width: 30%;    
+    }
+    .about h2{
+        margin-top: 10%;
+    }
+    .about .juntos{
+        margin-top: 2%;
+    }
+    .primeralinea{
+        flex-direction: column;
+    }
+    .formulariomadre input{
+        width: 40vh;
+    }
 }
