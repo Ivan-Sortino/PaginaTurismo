@@ -200,12 +200,19 @@ p.dosp{
 
                                 /* ABOUT US */
 
+.about{
+    background-color: #312e2e;
+}
 .about h2{ /*TITULO */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 6%;
     font-size: 45px;
+}
+.us{
+    color: #fed400;
+    padding-top: 3%;
 }
 .juntos{
     display: flex;
@@ -218,10 +225,13 @@ p.dosp{
     border-style: none;
     border-radius: 10px;
 }
-
+.history h2{
+    color: white;
+}
 .history p{
     text-align: center;
     margin-top: 3%;
+    color: white;
 }
  .history button{ /*BOTON */
     padding: 15px 15px;
@@ -315,8 +325,7 @@ p.dosp{
 
                                 /* FOOTER */
 .footer{
-    background: rgb(254,212,0);
-    background: radial-gradient(circle, rgba(254,212,0,1) 45%, rgba(0,0,0,1) 100%);
+    background-color: #312e2e;
     width: 100%;
     height: 20%;
 }
@@ -336,7 +345,7 @@ p.dosp{
 }
 .icons i:hover{
     transition: .5s;
-    color: black;
+    color: #fed400;
 }
 
 .dos{
